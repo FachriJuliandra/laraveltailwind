@@ -6,7 +6,10 @@ use App\Livewire\Posts;
 
 Route::get('posts', Posts::class)->middleware('auth');
 
-Route::get('/', function () {
+Route::get('/', function ()
+
+
+    {
     return view('welcome');
 });
 
